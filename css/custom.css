@@ -673,7 +673,7 @@ img.emoji {
 }
 
 .vc_custom_1475148381788 {
-	background-image: url(../images/2000x800.png) !important;
+	background-image: url(../images/content/bg_fresh.jpg) !important;
 	background-position: center !important;
 	background-repeat: no-repeat !important;
 	background-size: cover !important;
@@ -687,7 +687,7 @@ img.emoji {
 }
 
 .vc_custom_1475061036330 {
-	background-image: url(../images/2000x800.png) !important;
+	background-image: url(../images/content/big_bg.jpg) !important;
 	background-position: center !important;
 	background-repeat: no-repeat !important;
 	background-size: cover !important;
@@ -987,7 +987,7 @@ img.emoji {
 }
 
 .sc_promo_image {
-	background-image:url(../images/2000x1600.png);
+	background-image:url(../images/content/cows-cattle.jpg);
 	width:50%;
 	left: 0;
 }
@@ -1027,4 +1027,8 @@ img.emoji {
 	align-items: center;
 	justify-content: center;
 	box-shadow: 0px 7px 29px -11px rgba(0,0,0,0.75);
+}
+
+header a{
+	font-family: Oswald, sans-serif;
 }
