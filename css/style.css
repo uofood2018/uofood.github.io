@@ -3883,7 +3883,7 @@ li.opened > a > .open_child_menu:before {
 .top_panel_title_inner {
 	overflow:hidden;
     background-size: cover;
-    padding: 7em 0 7.1em;
+    padding: 10em 0 10.1em;
 }
 .top_panel_title .post_navi,
 .top_panel_title .page_title {

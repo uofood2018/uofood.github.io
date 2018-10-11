@@ -263,6 +263,7 @@
 .icon-user-1:before { content: '\e905'; } /* '' */
 .icon-phone-1:before { content: '\e906'; } /* '' */
 .icon-clock-1:before { content: '\e907'; } /* '' */
+.icon-bl-(1):before { content: '\e908'; } /* '' */
 .icon-rss:before { content: '\f09e'; } /* '' */
 .icon-food-1:before { content: '\f0f5'; } /* '' */
 .icon-gplus-1:before { content: '\f30f'; } /* '' */
