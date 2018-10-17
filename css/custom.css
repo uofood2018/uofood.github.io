@@ -1033,3 +1033,11 @@ img.emoji {
 header a{
 	font-family: Oswald, sans-serif;
 }
+
+.text-shadow{
+	text-shadow: 1px 1px 1px rgba(63, 63, 63, 1);
+}
+
+.color_wh{
+	color: #fff!important;
+}

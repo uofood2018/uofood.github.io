@@ -3900,8 +3900,9 @@ button,
 .scheme_original .sc_team_item .sc_team_item_info .sc_team_item_title a:hover {
   color: #cd1c21;
 }
-.scheme_original .inverse_colors .sc_team_item .sc_team_item_info .sc_team_item_title a {
-  color: #ff181f;
+.scheme_original .inverse_colors .sc_team_item .sc_team_item_info .sc_team_item_title span {
+  color: #fff;
+  text-shadow: 1px 1px 1px rgba(63, 63, 63, 1);
 }
 .scheme_original .inverse_colors .sc_team_item .sc_team_item_info .sc_team_item_title a:hover {
   color: #cd1c21;
