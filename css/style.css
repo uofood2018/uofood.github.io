@@ -3883,7 +3883,7 @@ li.opened > a > .open_child_menu:before {
 .top_panel_title_inner {
 	overflow:hidden;
     background-size: cover;
-    padding: 10em 0 10.1em;
+    padding: 12em 0 12em;
 }
 .top_panel_title .post_navi,
 .top_panel_title .page_title {
@@ -6106,7 +6106,7 @@ footer .logo {
     font-size: 1.2em;
     float: left;
     margin: 0.85em 0 0 1.5em;
-    max-width: 430px;
+    max-width: 550px;
 }
 .call_wrap_inner .call-title {
     float: left;

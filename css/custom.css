@@ -761,6 +761,19 @@ img.emoji {
 	background-position:  center;
 }
 
+.bg_cust_1_markets{
+	background-image: url(../images/content/markets-banner.jpg);
+}
+.bg_cust_1_contacts{
+	background-image: url(../images/content/contacts-banner.jpg);
+	background-position: 50% 80%;
+	background-size: cover;
+}
+.bg_cust_1_about{
+	background-image: url(../images/content/about-us.jpg);
+	background-size: contain;
+}
+
 
 
 .rev_slider_wrapper {
@@ -988,9 +1001,12 @@ img.emoji {
 }
 
 .sc_promo_image {
-	background-image:url(../images/content/cows-cattle.jpg);
+	background-image:url(../images/content/our_history.jpg);
 	width:50%;
 	left: 0;
+}
+.sc_promo_image_inner{
+	background-image:url(../images/content/about_2.JPG);
 }
 .sc_promo_block {
 	width: 50%; 
@@ -1040,4 +1056,23 @@ header a{
 
 .color_wh{
 	color: #fff!important;
+}
+
+.fsz20{
+	font-size: 20px;
+	line-height: 1.3;
+}
+
+.border-map{
+	border: solid 2px red;
+}
+/*.footer_wrap aside:last-of-type{*/
+	/*padding-right: 0;*/
+	/*width: auto;*/
+	/*float: right;*/
+	/*margin-right: 30px;*/
+/*}*/
+
+.column-2_4{
+	width: 50%;
 }
