@@ -770,8 +770,13 @@ img.emoji {
 	background-size: cover;
 }
 .bg_cust_1_about{
-	background-image: url(../images/content/about-us.jpg);
-	background-size: contain;
+	background-image: url(../images/content/about_2.JPG);
+	background-position: 50% 35%;
+	background-size: cover;
+}
+
+.bg_cust_1_product{
+	background-image: url(../images/content/products-banner.jpg);
 }
 
 
@@ -1006,7 +1011,7 @@ img.emoji {
 	left: 0;
 }
 .sc_promo_image_inner{
-	background-image:url(../images/content/about_2.JPG);
+	background-image:url(../images/content/about-us.jpg);
 }
 .sc_promo_block {
 	width: 50%; 

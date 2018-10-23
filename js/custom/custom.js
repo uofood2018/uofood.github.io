@@ -1046,10 +1046,10 @@ function initRev() {
 		} else {
 			revapi1 = tpj("#rev_slider_1_1").show().revolution({
 				sliderType: "standard",
-				jsFileLocation: "//dairy-farm.ancorathemes.com/wp-content/plugins/revslider/public/assets/js/",
+				// jsFileLocation: "//dairy-farm.ancorathemes.com/wp-content/plugins/revslider/public/assets/js/",
 				sliderLayout: "auto",
 				dottedOverlay: "none",
-				delay: 9000,
+				delay: 5000,
 				navigation: {
 					keyboardNavigation: "off",
 					keyboard_direction: "horizontal",
