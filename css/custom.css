@@ -1081,3 +1081,13 @@ header a{
 .column-2_4{
 	width: 50%;
 }
+
+.woocommerce .content ol li:before, .woocommerce-page .content ol li:before, .woocommerce .content ul li:before, .woocommerce-page .content ul li:before{
+	margin-top: 0;
+}
+ul>li, ol>li, dl>dd{
+	margin-bottom: 0;
+}
+.woocommerce .shop_mode_list ul.products li.product .description, .woocommerce-page .shop_mode_list ul.products li.product .description{
+	margin-bottom: 0;
+}
