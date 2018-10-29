@@ -1091,3 +1091,23 @@ ul>li, ol>li, dl>dd{
 .woocommerce .shop_mode_list ul.products li.product .description, .woocommerce-page .shop_mode_list ul.products li.product .description{
 	margin-bottom: 0;
 }
+
+.disabled_form{
+	pointer-events: none;
+	position: relative;
+}
+.disabled_form div{
+	opacity: 0.5;
+}
+.disabled_form:after{
+	content: url("../images/25.svg");
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	-webkit-transform: translate(-50%, -50%);
+	-moz-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	-o-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+	z-index: 2;
+}

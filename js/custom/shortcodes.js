@@ -1132,7 +1132,8 @@ function dairy_farm_countdown(dt) {
 // Contact form handlers
 function dairy_farm_sc_form_validate(form){
 	"use strict";
-	var url = form.attr('action');
+    form.addClass('disabled_form');
+    var url = form.attr('action');
 	if (url == '') return false;
 	form.find('input').removeClass('error_fields_class');
 	var error = false;
@@ -1208,6 +1209,7 @@ function dairy_farm_sc_form_validate(form){
 			}
 			var result = form.find(".result").toggleClass("sc_infobox_style_error", false).toggleClass("sc_infobox_style_success", false);
 			if (rez.error === '') {
+                form.removeClass('disabled_form');
 				form.get(0).reset();
 				result.addClass("sc_infobox_style_success").html(DAIRY_FARM_STORAGE['strings']['send_complete']);
 				var return_url = form.find('input[name="return_url"]');
