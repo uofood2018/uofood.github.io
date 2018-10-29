@@ -1,0 +1,7 @@
+User-agent: *
+Disallow:
+Disallow: /css/
+Disallow: /images/
+Disallow: /includes/
+Disallow: /js/
+Sitemap: https://uofood.by/sitemap.xml

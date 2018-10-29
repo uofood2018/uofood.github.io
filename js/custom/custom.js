@@ -182,7 +182,7 @@ window._wpemojiSettings = {
 	"svgUrl": "https:\/\/s.w.org\/images\/core\/emoji\/2.3\/svg\/",
 	"svgExt": ".svg",
 	"source": {
-		"concatemoji": "js/vendor/emoji-release.min.js"
+		"concatemoji": "/js/vendor/emoji-release.min.js"
 	}
 };
 
