@@ -1116,3 +1116,15 @@ ul>li, ol>li, dl>dd{
 	min-height: 215px;
 	padding: 0 5px;
 }
+
+.page404 {
+	padding: 70px 0!important;
+	background-image: url("../images/content/photo-1538933731740-39e5e9c7aa5f.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.page404 .hgroup{
+	color: #fff;
+}
