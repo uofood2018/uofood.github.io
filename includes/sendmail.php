@@ -1,7 +1,8 @@
 <?php 
 global $_REQUEST;
 $response = array('error'=>'');
-$contact_email = 'prihodko@globalsolutions.ru';
+//$contact_email = 'prihodko@globalsolutions.ru';
+$contact_email = 'info@uofood.by';
 
 // type
 $type = $_REQUEST['type'];	
