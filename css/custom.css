@@ -1111,3 +1111,8 @@ ul>li, ol>li, dl>dd{
 	transform: translate(-50%, -50%);
 	z-index: 2;
 }
+
+.contacts_blocks .sc_section_inner{
+	min-height: 215px;
+	padding: 0 5px;
+}

@@ -10,13 +10,14 @@ parse_str($_POST['data'], $post_data);
 		
 
 		$user_name = stripslashes(strip_tags(trim($post_data['username'])));
+		$company_name = stripslashes(strip_tags(trim($post_data['companyname'])));
 		$user_email = stripslashes(strip_tags(trim($post_data['email'])));
 		$user_subject = stripslashes(strip_tags(trim($post_data['subject'])));
 		$user_msg =stripslashes(strip_tags(trim( $post_data['message'])));
 			
 		if (trim($contact_email)!='') {
 			$subj = 'Message from UOFood';
-			$msg = $subj." \r\nName: $user_name \r\nE-mail: $user_email \r\nMessage: $user_msg";
+			$msg = $subj." \r\nName: $user_name \r\nCompany Name: $company_name \r\nE-mail: $user_email \r\nMessage: $user_msg";
 		
 			$head = "Content-Type: text/plain; charset=\"utf-8\"\n"
 				. "X-Mailer: PHP/" . phpversion() . "\n"

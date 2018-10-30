@@ -2501,7 +2501,35 @@ Samsung Galaxy
 /*
 Very common low res
 */
+@media (max-width: 1439px){
+    .contacts_blocks .sc_section_inner {
+        min-height: 255px;
+    }
+}
+@media (max-width: 1262px){
+    .contacts_blocks .sc_section_inner {
+        min-height: 208px;
+    }
+}
+@media (max-width: 959px){
+    .contacts_blocks .sc_section_inner {
+        min-height: 227px;
+    }
+}
+@media (max-width: 768px){
+    .contacts_blocks .sc_section_inner {
+        min-height: 178px;
+    }
+}
+@media (max-width: 640px){
+    .contacts_blocks .sc_section_inner {
+        min-height: 195px;
+    }
+}
 @media (max-width: 479px) {
+    .contacts_blocks .sc_section_inner {
+        min-height: 0px;
+    }
 
 	html, body {	font-size: 12px; }
 	h1 { font-size:2.5em; }		/* 30px */
@@ -3651,7 +3679,6 @@ Very common low res
 	}
 
 }
-
 
 @media (max-width: 782px) {
 	.admin-bar.top_panel_over .top_panel_wrap {	top:46px; }
