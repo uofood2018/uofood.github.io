@@ -2520,6 +2520,9 @@ Very common low res
     .contacts_blocks .sc_section_inner {
         min-height: 178px;
     }
+    .column-2_4{
+        width: 100%;
+    }
 }
 @media (max-width: 640px){
     .contacts_blocks .sc_section_inner {
@@ -2529,6 +2532,9 @@ Very common low res
 @media (max-width: 479px) {
     .contacts_blocks .sc_section_inner {
         min-height: 0px;
+    }
+    .widget_area aside+aside.column-2_4 {
+        margin-top: 0;
     }
 
 	html, body {	font-size: 12px; }
