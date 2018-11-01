@@ -95,7 +95,7 @@ var DAIRY_FARM_STORAGE = {
 		"subject_long": "Too long subject",
 		"text_empty": "The message text can&#039;t be empty",
 		"text_long": "Too long message text",
-		"send_complete": "Send message complete!",
+		"send_complete": "Thank you for your query.<br> We will respond in 24 hours.",
 		"send_error": "Transmit failed!",
 		"geocode_error": "Geocode was not successful for the following reason:",
 		"googlemap_not_avail": "Google map API not available!",

@@ -1132,7 +1132,6 @@ function dairy_farm_countdown(dt) {
 // Contact form handlers
 function dairy_farm_sc_form_validate(form){
 	"use strict";
-    form.addClass('disabled_form');
     var url = form.attr('action');
 	if (url == '') return false;
 	form.find('input').removeClass('error_fields_class');
@@ -1193,7 +1192,8 @@ function dairy_farm_sc_form_validate(form){
 		});
 	}
 	if (!error && url!='#') {
-		jQuery.post(url, {
+        form.addClass('disabled_form');
+        jQuery.post(url, {
 			action: "send_form",
 			nonce: DAIRY_FARM_STORAGE['ajax_nonce'],
 			type: form.data('formtype'),
@@ -1222,7 +1222,7 @@ function dairy_farm_sc_form_validate(form){
 			} else {
 				result.addClass("sc_infobox_style_error").html(DAIRY_FARM_STORAGE['strings']['send_error'] + ' ' + rez.error);
 			}
-			result.fadeIn().delay(3000).fadeOut();
+			result.fadeIn().delay(8000).fadeOut();
 		});
 	}
 	return !error;
